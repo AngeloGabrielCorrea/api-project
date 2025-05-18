@@ -1,5 +1,4 @@
 from fastapi import FastAPI, Header, HTTPException
-from animefire_scraper import get_all_animes
 import json
 
 app = FastAPI()
